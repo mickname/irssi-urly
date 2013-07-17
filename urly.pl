@@ -6,7 +6,7 @@ use URI::Escape;
 
 use vars qw($VERSION %IRSSI);
 
-$VERSION = '1.2';
+$VERSION = '1.3';
 %IRSSI = (
 	authors	=> 'Mikko "mickname" Luodemaa',
 	contact	=> 'mickname @ IRCnet',
@@ -77,7 +77,7 @@ sub urlify {
 	$url = uri_escape($url);
 	
 	my $urly_get = LWP::UserAgent->new;
-	$urly_get->agent("irssi-urly1.2");
+	$urly_get->agent("irssi-urly" . $VERSION);
 	
 	my $response = $urly_get->get("http://urly.fi/api/shorten/?url=$url");
 	

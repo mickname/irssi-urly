@@ -6,9 +6,9 @@ Shorten long urls [http://urly.fi](urly.fi) -service.
 Features
 --------
 
-Invoke using `/urly something`. If *something* contains spaces, all detected urls in the text are replaced with urlified ones. If *something* is a single "word", no checking is done, ie. shortening is forced.
+Invoke using `/urly something`. If *something* contains spaces, all detected urls in the text are replaced with urlified ones. If *something* is a single "word", no checking is done, i.e. shortening is forced.
 
-If the command was invoked in a chat window, the output is sent to the channel/query. Otherwise, it is printed in the client mesages.
+If the command was invoked in a chat window, the output is sent to the channel/query. Otherwise, it is printed in the client messages.
 
 If error(s) occur, the count of failed shortenings is printed in a client message.
 

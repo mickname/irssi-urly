@@ -6,7 +6,7 @@ use URI::Escape;
 
 use vars qw($VERSION %IRSSI);
 
-$VERSION = '1.3';
+$VERSION = '1.4';
 %IRSSI = (
 	authors => 'Mikko "mickname" Luodemaa',
 	contact => 'mickname @ IRCnet',

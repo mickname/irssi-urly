@@ -1,7 +1,7 @@
 irssi-urly
 ==========
 
-Shorten long urls using [https://urly.fi](urly.fi) -service.
+Shorten long urls using [urly.fi](https://urly.fi) -service.
 
 Features
 --------

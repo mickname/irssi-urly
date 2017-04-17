@@ -79,10 +79,10 @@ sub urlify {
 	my $urly_get = LWP::UserAgent->new;
 	$urly_get->agent("irssi-urly" . $VERSION);
 	
-	my $response = $urly_get->get("http://urly.fi/api/shorten/?url=$url");
+	my $response = $urly_get->get("https://urly.fi/api/shorten/?url=$url");
 
 	if ($response->is_success) {
-		return 'http://urly.fi/' . $response->content;
+		return 'https://urly.fi/' . $response->content;
 	} else {
 		return '';
 	}
